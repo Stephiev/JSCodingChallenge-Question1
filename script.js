@@ -52,7 +52,7 @@ $(function() {
         $("#awesome-index").text("This result is due to " + clicked + ": " + resText);
       } else {
         resText = sumAwesomeIndexNS(people);
-        document.getElementById("awesome-index").innerHTML = "This result is due to Native Javascript: " + resText;
+        document.getElementById("awesome-index").innerHTML = "This result is due to Native JavaScript: " + resText;
       }
     });
 });
